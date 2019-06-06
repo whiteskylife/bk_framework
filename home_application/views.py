@@ -16,4 +16,4 @@ def helloworld(request):
     """
     helloworld
     """
-    return HttpResponse("hello world")
+    return HttpResponse("hello world good!")
