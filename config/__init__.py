@@ -16,7 +16,8 @@ RUN_VER = 'open'
 # SaaS应用ID
 APP_CODE = 'whisky001'
 # SaaS安全密钥，注意请勿泄露该密钥
-SECRET_KEY = '71c0c406-7037-4c98-ad33-865306573458'
+# SECRET_KEY = '71c0c406-7037-4c98-ad33-865306573458' # 腾讯云环境秘钥
+SECRET_KEY = '73e07020-c770-4fc0-99cf-6eea9f759c84'  # 本地秘钥
 # 蓝鲸SaaS平台URL, 如 https://paas.blueking.com/
 # BK_URL = 'http://paas.class.o.qcloud.com:8000'
 BK_URL = 'http://paas.class.o.qcloud.com:80'
