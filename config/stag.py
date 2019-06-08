@@ -18,12 +18,12 @@ RUN_MODE = 'STAGING'
 DATABASES.update(
     {
         'default': {
-            'ENGINE': '',
-            'NAME': '',  # 数据库名
-            'USER': '',  # 数据库用户
-            'PASSWORD': '',  # 数据库密码
-            'HOST': '',  # 数据库主机
-            'PORT': '',  # 数据库端口
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': 'whisky001',
+            'USER': 'root',
+            'PASSWORD': '123456',
+            'HOST': '192.168.1.119',
+            'PORT': '3306',
         },
     }
 )
