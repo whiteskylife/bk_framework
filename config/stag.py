@@ -22,7 +22,7 @@ DATABASES.update(
             'NAME': 'whisky001',
             'USER': 'root',
             'PASSWORD': '123456',
-            'HOST': '192.168.1.119',
+            'HOST': '10.0.1.80',
             'PORT': '3306',
         },
     }
